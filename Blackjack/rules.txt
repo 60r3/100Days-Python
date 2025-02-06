@@ -1,0 +1,45 @@
+📜 Reglas del Blackjack 🃏
+
+
+🎯 Objetivo del Juego
+
+El objetivo es obtener una mano cuyo valor sea lo más cercano posible a 21, sin pasarse.
+Se juega contra el crupier (la banca), no contra otros jugadores.
+
+🃏 Valores de las Cartas
+Cartas numéricas (2-10): Su valor es el número que muestran.
+Figuras (J, Q, K): Todas valen 10 puntos.
+As (A): Puede valer 1 u 11, dependiendo de qué beneficie más la mano.
+
+🎮 Desarrollo del Juego
+Reparto Inicial
+
+Cada jugador y el crupier reciben dos cartas.
+Una de las cartas del crupier está oculta (boca abajo).
+Opciones del Jugador
+
+Pedir carta (Hit): Recibe una carta adicional.
+Plantarse (Stand): Se queda con su mano actual.
+Doblar apuesta (Double Down): Duplica la apuesta inicial y recibe una única carta extra (opción válida solo al inicio).
+Dividir (Split): Si tiene dos cartas del mismo valor, puede dividirlas en dos manos separadas (requiere apostar lo mismo en la nueva mano).
+Rendirse (Surrender) [Opcional]: Puede abandonar la mano y recuperar la mitad de su apuesta.
+Turno del Crupier
+
+Si el jugador no ha superado los 21 puntos, el crupier revela su carta oculta.
+Debe pedir carta hasta llegar al menos a 17 (en muchas variantes, si tiene un 17 "suave" [A+6], también debe pedir).
+Resultado Final
+
+Gana el jugador si:
+Obtiene 21 en las dos primeras cartas (Blackjack) y el crupier no tiene un Blackjack.
+Su mano tiene mayor puntaje que la del crupier sin pasar de 21.
+El crupier se pasa de 21 (pierde automáticamente).
+Pierde el jugador si:
+Su mano supera los 21 puntos (automáticamente pierde).
+El crupier tiene un valor más alto sin pasarse de 21.
+Empate (Push): Si el jugador y el crupier tienen el mismo puntaje, se devuelve la apuesta.
+
+💰 Apuestas y Pagos
+Blackjack (A + 10): Paga 3:2 (por cada $10 apostados, ganas $15).
+Victoria normal: Paga 1:1.
+Empate: Se devuelve la apuesta.
+Seguro (Insurance) [Opcional]: Si el crupier muestra un As, el jugador puede pagar un seguro que se paga 2:1 si el crupier tiene Blackjack.
